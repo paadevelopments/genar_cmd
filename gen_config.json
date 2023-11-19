@@ -1,0 +1,10 @@
+{
+    "appName": "Genar",
+    "appIcon": "app_icon_to_gen.png",
+    "splashIcon": "app_icon_splash.png",
+    "baseUrl": "https://google.com",
+    "colorPrimary": "#673AB7",
+    "colorAccent": "#7E525D",
+    "pullToRefresh": true,
+    "pullToRefreshInline": false
+  }
