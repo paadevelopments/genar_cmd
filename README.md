@@ -40,5 +40,21 @@ Below are the configuration values required for an app generation process.<br>
 | `pullToRefresh` | boolean | Whether or not to enable pull-to-refresh feature.<br> Note: This feature is still being perfected and may act buggy sometimes. |
 
 
+## Extras
+Utility functions (including base project setup, configuration synchronizing and other file migrations) logic can be found in `jar_helpers/FileUtil.java`.<br>
+Any altrations to this logic will require a new Java compilation.<br>
+Compilation can be done by following the steps below.<br>
+
+**Step 1.** Open your Command Prompt and CD into the root folder of the cloned project.<br>
+**Step 2.** Run `javac jar_helpers/FileUtil.java` command to compile your changes.<br>
+
+NOTE:: Compilation will ONLY work after Genar CMD has already been successfylly setup (`kick_start.bat`) has been executed successfully.<br>
+This is because, Java 17 would be installed and made available in any new Command Prompt session.
+
+
+## Contributions & Support
+Genar CMD welcomes contributions and support of any form to enabe it to expand and even make iOS builds possible on Apple™ computers.
+
+
 ## License
 MIT
