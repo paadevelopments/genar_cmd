@@ -17,7 +17,7 @@ Once that is set, follow the steps below to setup Genar CMD.<br>
 ## Generating Your App
 The current version of Genar CMD provides very limited configuration input for an app generation.<br>
 
-You can find the configuration values in the `gen_config.json` file. Alter the values to your preference - in accordance to the appropriate format. See [Configuration Values](#configuration_values).<br>
+You can find the configuration values in the `gen_config.json` file. Alter the values to your preference - in accordance to the appropriate format. See [Configuration Values](#configuration-values).<br>
 
 Once you are done setting up your app's configuration, follow the steps below to start your build process.<br>
 
