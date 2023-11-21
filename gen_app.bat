@@ -23,7 +23,7 @@ ECHO        on your processor's speed and RAM size.
 ECHO        Expect slower builds on a low spec'd computer.
 ECHO.
 ECHO     3. Build will be stored in the `output` folder in the root
-ECHO        directory of this `generate.exe` program when successfully
+ECHO        directory of this `gen_app.bat` program when successfully
 ECHO        complete.
 ECHO.
 ECHO     ............................................................
