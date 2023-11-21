@@ -7,7 +7,7 @@
 :: Intro
 ECHO.
 ECHO     ............................................................
-ECHO     Genar - v1.2.0
+ECHO     Genar CMD - v1.0.0
 ECHO     License: MIT (c) 2023 Paa ( paa.code.me@gmail.com )
 ECHO     ............................................................
 ECHO.
@@ -264,13 +264,13 @@ IF %errorlevel% GTR 0 SET status_message=Setup Complete But Unable To Cleanup. &
 
 :: ALL SUCCESS
 :all_done
-SET status_message=Setup Successful!@@@@Edit `gen_config.json` To Your Prefered Options And run `gen_app.exe` To Generate Your App.@@For more info, check `readme.txt`.
+SET status_message=Setup Successful!@@@@Edit `gen_config.json` To Your Prefered Options And run `gen_app.bat` To Generate Your App.@@For more info, check `README.md`.
 POWERSHELL -ExecutionPolicy Bypass -File "sho_sta_msg.ps1" -title "Genar ~ Setup" -message "%status_message%" -action "Ok" -icon "Info"
 ECHO.
 ECHO     ............................................................
-ECHO     Genar Setup Successful.
-ECHO     Edit `gen_config.json` To Your Prefered Options And run `gen_app.exe` To Generate Your App.
-ECHO     For more info, check `readme.txt`.
+ECHO     Genar CMD Setup Successful.
+ECHO     Edit `gen_config.json` To Your Prefered Options And run `gen_app.bat` To Generate Your App.
+ECHO     For more info, check `README.md`.
 EXIT /b 0
 
 :: Alert message function

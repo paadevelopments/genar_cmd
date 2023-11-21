@@ -7,7 +7,7 @@
 :: Intro
 ECHO.
 ECHO     ............................................................
-ECHO     Genar - v1.2.0
+ECHO     Genar CMD - v1.0.0
 ECHO     License: MIT (c) 2023 Paa ( paa.code.me@gmail.com )
 ECHO     ............................................................
 ECHO.
